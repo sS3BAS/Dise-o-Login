@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.Principal {
+  display: flex;
+
+  margin: 30px 50px;
+  width: 1430px;
+  height: 600px;
+  background: #5386fc;
+  background: linear-gradient(
+    91deg,
+    rgba(83, 134, 252, 1) 0%,
+    rgba(61, 119, 255, 1) 30%,
+    rgb(162, 195, 240) 100%
+  );
+  border-radius: 30px;
+  align-items: center;
+  justify-content: center;
+}
+.Contenedor {
+  width: 400px;
+  height: 500px;
+  background-color: white;
+  border-radius: 30px;
+  padding: 50px;
+  box-shadow: 13px 20px 20px 0px #bcb8fb;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+.encabezado {
+  width: 100%;
+  height: 20%;
+}
+.welcome {
+  font-size: 25px;
+  margin: 50px;
+}
+.texto {
+  font-size: 13px;
+  padding: 10px;
+  margin: 5px;
+  color: #8c8d8e;
+}
+.centro {
+  width: 100%;
+  height: 50%;
+  background-color: white;
+  padding: 20px 0px;
+  align-items: center;
+}
+.span-centro {
+  font-size: 13px;
+  display: block;
+  padding: 0px 5px;
+}
+.btn {
+  text-decoration: none;
+  width: 95%;
+  border-radius: 5px;
+  font-size: 13px;
+  height: 24px;
+  display: block;
+  padding: 5px;
+  margin: 0px 0px 10px;
+  border: 1px solid #8c8d8e;
+}
+.btn-email {
+  color: #8c8d8e;
+  padding: 3px;
+}
+.btn-centro {
+  text-decoration: none;
+  font-size: 12px;
+  display: inline-block;
+}
+.rem {
+  color: #8c8d8e;
+}
+.pass {
+  margin: 0px 25px 0px 28px;
+  color: #3c41bd;
+}
+.azul {
+  height: 35px;
+  padding: 7px 120px;
+  font-size: 14px;
+  background-color: #6375f1;
+  border-radius: 5px;
+  text-decoration: none;
+  display: flex;
+  color: white;
+  align-items: center;
+}
+.google {
+  border: 1px solid #8c8d8e;
+  height: 35px;
+  width: 95%;
+  border-radius: 5px;
+  text-decoration: none;
+  padding: 7px 10px;
+  color: black;
+}
+img {
+  width: 15px;
+  height: 16px;
+}
+.pie {
+  padding: 30px 40px;
+  color: #8c8d8e;
+  font-size: 14px;
+}
+.final {
+  text-decoration: none;
+  color: #6375f1;
+}
