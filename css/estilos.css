@@ -1,0 +1,79 @@
+/* -------------------------------------- */
+/* 1. Selector de Etiquetas */
+/* Aplica a todos los elementos que coincidan con el nombre de la etiqueta */
+/* -------------------------------------- */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    padding: 20px;
+}
+
+h1 {
+    color: #333;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 10px;
+}
+
+
+/* -------------------------------------- */
+/* 2. Selector de ID */
+/* Identificado por el símbolo #. Es único, solo aplica a un elemento por página. */
+/* -------------------------------------- */
+#parrafo-principal {
+    background-color: #e0f7fa;
+    color: #00796b;
+    padding: 15px;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+
+/* -------------------------------------- */
+/* 3. Selector de Clase */
+/* Identificado por el símbolo . (punto). Puede aplicarse a múltiples elementos. */
+/* -------------------------------------- */
+.resaltado {
+    color: #c2185b;
+    font-style: italic;
+}
+
+.contenedor {
+    margin-top: 15px;
+    padding: 10px;
+    border: 1px dashed #7986cb;
+}
+
+
+/* -------------------------------------- */
+/* 4. Selectores Encadenados (Descendientes) */
+/* Aplica a un elemento (p) que está contenido dentro de otro elemento (div). */
+/* -------------------------------------- */
+.contenedor p {
+    margin: 5px 0;
+    padding: 5px;
+    background-color: #fffde7;
+    border-left: 5px solid #ffeb3b;
+}
+
+
+/* -------------------------------------- */
+/* 5. Selector de Pseudoclase */
+/* Aplica estilos especiales a un selector cuando está en un estado específico. */
+/* En este caso, cuando el ratón está encima (:hover). */
+/* -------------------------------------- */
+.enlace-interactivo {
+    display: inline-block;
+    padding: 10px 15px;
+    margin-top: 25px;
+    background-color: #4a148c;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s; /* Para un efecto más suave */
+}
+
+.enlace-interactivo:hover {
+    background-color: #7b1fa2; /* Nuevo color al pasar el ratón */
+    transform: scale(1.05); /* Ligeramente más grande */
+}
